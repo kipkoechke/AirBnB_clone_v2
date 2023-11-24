@@ -1,25 +1,10 @@
 #!/usr/bin/python3
-"""Defines the Place class."""
-
+""" Place Module for HBNB project """
 from models.base_model import BaseModel
 
+
 class Place(BaseModel):
-    """Represents a place.
-
-    Attributes:
-        city_id (str): City id.
-        user_id (str): User id.
-        name (str): Place name.
-        description (str): Place description.
-        number_rooms (int): Number of rooms.
-        number_bathrooms (int): Number of bathrooms.
-        max_guest (int): Maximum number of guests.
-        price_by_night (int): Price per night.
-        latitude (float): Latitude coordinates.
-        longitude (float): Longitude coordinates.
-        amenity_ids (list): List of Amenity ids.
-    """
-
+    """ A place to stay """
     city_id = ""
     user_id = ""
     name = ""
@@ -31,4 +16,3 @@ class Place(BaseModel):
     latitude = 0.0
     longitude = 0.0
     amenity_ids = []
-
