@@ -1,4 +1,5 @@
- the Place class."""
+#!/usr/bin/python3
+"""Defines the Place class."""
 import models
 from os import getenv
 from models.base_model import Base
